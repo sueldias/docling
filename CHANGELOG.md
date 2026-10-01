@@ -1,3 +1,22 @@
+## [v2.132.0](https://github.com/docling-project/docling/releases/tag/v2.132.0) - 2026-10-01
+
+### Feature
+
+* **pdf, reading-order:** Updating the reading-order algoirthm ([#4276](https://github.com/docling-project/docling/issues/4276)) ([`42de1e2`](https://github.com/docling-project/docling/commit/42de1e20fe2783c0c30c5b3c0f9c60ab5eef9e16))
+
+### Fix
+
+* Preserve fidelity when mapping external VLM output (Chandra, dots, MinerU) ([#4470](https://github.com/docling-project/docling/issues/4470)) ([`20ba847`](https://github.com/docling-project/docling/commit/20ba84719e1c9e29f7ddfb731eca7ad00488180d))
+* **csv:** Validate first-line dialect before accepting a sniff ([#4453](https://github.com/docling-project/docling/issues/4453)) ([`d6f0307`](https://github.com/docling-project/docling/commit/d6f03078ad364108df3e7e82e8f0dcc3fd7f39ea))
+* **docx:** Exclude '<w:bCs>' from bold detection ([#4366](https://github.com/docling-project/docling/issues/4366)) ([`bf836f2`](https://github.com/docling-project/docling/commit/bf836f244d92dc001d68230a44a4afa23926df17))
+* **image:** Recognize .gif files as images ([#4326](https://github.com/docling-project/docling/issues/4326)) ([`cd05bef`](https://github.com/docling-project/docling/commit/cd05bef2837c879cb636b5e8e61b03405bfdf7b8))
+* **cli:** Skip Excel and PowerPoint lock files in directories ([#4324](https://github.com/docling-project/docling/issues/4324)) ([`6864fb3`](https://github.com/docling-project/docling/commit/6864fb314475b3aab8acb254e9c5f2c795fd5b13))
+* **csv:** Unescape doubled quotes in quoted fields ([#4362](https://github.com/docling-project/docling/issues/4362)) ([`e53ce5d`](https://github.com/docling-project/docling/commit/e53ce5dfd2e7705dd06855eefa62e404ac59f0ac))
+* **md:** Keep inline code spans inside GFM table cells ([#4327](https://github.com/docling-project/docling/issues/4327)) ([`ae8db9a`](https://github.com/docling-project/docling/commit/ae8db9a2f1379875f1a74ad7935f58a70b5183c9))
+* **latex:** Run Tectonic without shell escape and skip TikZ that references outside files ([#4419](https://github.com/docling-project/docling/issues/4419)) ([`38b6fa0`](https://github.com/docling-project/docling/commit/38b6fa0a465d46fdacbbec333f50fa19c4f6b342))
+* **html:** Validate every resolved address and scope fetch headers to the source origin ([#4420](https://github.com/docling-project/docling/issues/4420)) ([`5e46913`](https://github.com/docling-project/docling/commit/5e469137f275ffc443306a30d12a3a45bceb80fb))
+* **video:** Limit ffmpeg input protocols and add subprocess timeouts ([#4421](https://github.com/docling-project/docling/issues/4421)) ([`efaf9ed`](https://github.com/docling-project/docling/commit/efaf9edd61363ef7239a49ba8e6b349ee219268f))
+
 ## [v2.131.0](https://github.com/docling-project/docling/releases/tag/v2.131.0) - 2026-09-29
 
 ### Feature
